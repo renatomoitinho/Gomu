@@ -1,8 +1,8 @@
 
-gomu
+Gomu
 ====
 
-Simple web framework experience, java8 + akka + servlet call async
+Simple fast web framework experience, java8 + akka + servlet 3 call async
 
 sample use
 
@@ -11,7 +11,7 @@ sample use
 public class ApplicationRoutes extends ABServices {
 
    static {
-        //user native request response   
+        //use native request response   
         get("/hello", (request,response)->{
 
             try(PrintWriter printWriter= response.getWriter()){
